@@ -60,9 +60,8 @@ row1 = html.Div(
                 dbc.Col(
                     [
                         dcc.Markdown("##### Property Type", className='mb-1'),
-                        html.P("Hello World"),
                         dcc.Dropdown(
-                            id='property',as
+                            id='property',
                             options=property.property_type,
                             value='House',
                             className='mb-4',

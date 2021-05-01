@@ -15,6 +15,7 @@ dash-daq = "*"
 scikit-learn = "==0.24.2"
 sklearn = "*"
 tensorflow-cpu = "*"
+tensorflow = "*"
 
 [requires]
 python_version = "3"
